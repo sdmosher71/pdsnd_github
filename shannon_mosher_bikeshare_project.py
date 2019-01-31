@@ -21,19 +21,19 @@ def get_filters():
     city = input('Please select Chicago, New York City or Washington ').lower()
 
     while not (city == 'chicago' or city == 'new york city' or city == 'washington'):
-        city = input('Please select Chicago, New York City or Washington ').lower()
+        city = input('Please make a valid selection - Chicago, New York City or Washington ').lower()
 
     # get user input for month (all, january, february, march, april, may, june)
     month = input('Please select month - January, Febraury, March, April, May, June or all: ').lower()
 
     while not (month == 'january' or month == 'february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all' ):
-        month = input('Please select month - January, Febraury, March, April, May, June or all: ').lower()
+        month = input('Please make a valid selection - January, Febraury, March, April, May, June or all: ').lower()
 
-    # get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday. sunday)
+    # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Please select day - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all: ').lower()
 
     while not (day == 'sunday' or day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'all' ):
-        day = input('Please select day - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all: ').lower()
+        day = input('Please make a valid selection - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all: ').lower()
 
     print('-'*40)
     return city, month, day
