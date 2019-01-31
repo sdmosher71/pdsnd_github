@@ -33,7 +33,7 @@ def get_filters():
     day = input('Please select day - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all: ').lower()
 
     while not (day == 'sunday' or day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'all' ):
-        day = input('Please select day - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all: ').lower()
+        day = input('Please make a valid selection - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all: ').lower()
 
     print('-'*40)
     return city, month, day
