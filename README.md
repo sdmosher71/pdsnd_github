@@ -2,13 +2,16 @@
 January 30,2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+Final Python Project for Udacity Programming for Data Science NanoDegree
 
 ### Files used
-Include the files used
+shannon_mosher_bikeshare_project.py
+new_york_city.csv
+chicago.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity lessons, knowedge base and student hub used to complete this project.
